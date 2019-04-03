@@ -1,0 +1,37 @@
+
+尊敬的$username，您好！<br/>
+<br/>
+您为$custname申请的特价被审批通过，谢谢！<br/>
+<table style="border-right:1px solid #F00;border-bottom:1px solid #F00">
+	<tr>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">经销商</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">客户名称</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">物料号</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">物料名</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">建议客户出货价格（含税16%）</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">建议经销商成本价（含税16%）</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">经销商利润率</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">建议客户出货价格（未税）</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">建议经销商成本价（未税）</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">一次性价格</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">开始执行日期</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">备注</td>
+	</tr>
+	<tr>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$username</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$custname</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$code</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$name</td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$sugcustsplinc </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$sugdealersplinc </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$sugdealerprofit </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$sugcustspl </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$sugdealerspl </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$isnotrebate </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$activedate </td>
+		<td style="border-left:1px solid #F00;border-top:1px solid #F00">$auditremark </td>
+	</tr>
+</table>
+<br/>
+<br/>
+<br/>

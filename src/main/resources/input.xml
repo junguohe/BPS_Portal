@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheets>
+	<sheet name="PackingType">
+		<block start="A2" end="F2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="packTypeCode" />
+			<cell position="B2" dataName="packTypeName" />
+			<cell position="C2" dataName="packTypeUnit" />
+			<cell position="D2" dataName="packTypeDesc" />
+			<cell position="E2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PricardDiscount">
+		<block start="A2" end="H2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="pricardStandardCode" />
+			<cell position="B2" dataName="prodTypeCode" />
+			<cell position="C2" dataName="tierType" />
+			<cell position="D2" dataName="tierStart" />
+			<cell position="E2" dataName="grossStdDiscount" />
+			<cell position="F2" dataName="effectiveFrom" />
+			<cell position="G2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PricardStandard">
+		<block start="A2" end="I2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="pricardStandardCode" />
+			<cell position="B2" dataName="originCityCode" />
+			<cell position="C2" dataName="destCityCode" />
+			<cell position="D2" dataName="prodTypeCode" />
+			<cell position="E2" dataName="grossWgtUnitPrice" />
+			<cell position="F2" dataName="grossVolUnitPrice" />
+			<cell position="G2" dataName="effectiveFrom" />
+			<cell position="H2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="ProductType">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="prodTypeCode" />
+			<cell position="B2" dataName="prodTypeName" />
+			<cell position="C2" dataName="prodTypeDesc" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="HubHomeDp">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="hubCode" />
+			<cell position="B2" dataName="depotCode" />
+			<cell position="C2" dataName="platformCode" />
+			<cell position="D2" dataName="effectiveFrom" />
+			<cell position="E2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="HubFleet">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="hubCode" />
+			<cell position="B2" dataName="fleetCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="Hub">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="hubCode" />
+			<cell position="B2" dataName="hubName" />
+			<cell position="C2" dataName="hubFullName" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="Fleet">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="fleetCode" />
+			<cell position="B2" dataName="fleetName" />
+			<cell position="C2" dataName="fleetFullName" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="TransVehicleBlackList">
+		<block start="A2" end="D2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="vehiclePlateNum" />
+			<cell position="B2" dataName="effectiveFrom" />
+			<cell position="C2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="P2pDistance">
+		<block start="A2" end="F2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="pointFrom" />
+			<cell position="B2" dataName="pointTo" />
+			<cell position="C2" dataName="distance" />
+			<cell position="D2" dataName="effectiveFrom" />
+			<cell position="E2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PrimeRoute">
+		<block start="A2" end="G2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="originDpCode" />
+			<cell position="B2" dataName="originHubCode" />
+			<cell position="C2" dataName="destDpCode" />
+			<cell position="D2" dataName="destHubCode" />
+			<cell position="E2" dataName="effectiveFrom" />
+			<cell position="F2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PricardCity">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="pricardCityCode" />
+			<cell position="B2" dataName="pricardCityName" />
+			<cell position="C2" dataName="pricardCityFullName" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="DepotHub">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="depotCode" />
+			<cell position="B2" dataName="hubCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="DepotFleet">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="depotCode" />
+			<cell position="B2" dataName="fleetCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="Depot">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="depotCode" />
+			<cell position="B2" dataName="depotName" />
+			<cell position="C2" dataName="depotFullName" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrUpTransMilkrun">
+		<block start="A2" end="K2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="depotCode" />
+			<cell position="B2" dataName="vehicleTypeCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="adjustmentFactor" />
+			<cell position="E2" dataName="unitPrice" />
+			<cell position="F2" dataName="standardPrice" />
+			<cell position="G2" dataName="basePrice" />
+			<cell position="H2" dataName="minPrice" />
+			<cell position="I2" dataName="maxPrice" />
+			<cell position="J2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrUpTrans">
+		<block start="A2" end="J2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="depotCode" />
+			<cell position="B2" dataName="vehicleTypeCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="adjustmentFactor" />
+			<cell position="E2" dataName="unitPrice" />
+			<cell position="F2" dataName="basePrice" />
+			<cell position="G2" dataName="minPrice" />
+			<cell position="H2" dataName="maxPrice" />
+			<cell position="I2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrPacking">
+		<block start="A2" end="J2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="hubCode" />
+			<cell position="B2" dataName="packTypeCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="adjustmentFactor" />
+			<cell position="E2" dataName="unitPrice" />
+			<cell position="F2" dataName="basePrice" />
+			<cell position="G2" dataName="minPrice" />
+			<cell position="H2" dataName="maxPrice" />
+			<cell position="I2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrDestDelivery">
+		<block start="A2" end="H2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="destCode" />
+			<cell position="B2" dataName="cargoDeliveryCode" />
+			<cell position="C2" dataName="tierType" />
+			<cell position="D2" dataName="tierStart" />
+			<cell position="E2" dataName="effectiveFrom" />
+			<cell position="F2" dataName="price" />
+			<cell position="G2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrDestHubHdl">
+		<block start="A2" end="I2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="hubCode" />
+			<cell position="B2" dataName="effectiveFrom" />
+			<cell position="C2" dataName="adjustmentFactor" />
+			<cell position="D2" dataName="unitPrice" />
+			<cell position="E2" dataName="basePrice" />
+			<cell position="F2" dataName="minPrice" />
+			<cell position="G2" dataName="maxPrice" />
+			<cell position="H2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrDestSelfPickup">
+		<block start="A2" end="I2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="destCode" />
+			<cell position="B2" dataName="effectiveFrom" />
+			<cell position="C2" dataName="adjustmentFactor" />
+			<cell position="D2" dataName="unitPrice" />
+			<cell position="E2" dataName="basePrice" />
+			<cell position="F2" dataName="minPrice" />
+			<cell position="G2" dataName="maxPrice" />
+			<cell position="H2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CrOriginPickup">
+		<block start="A2" end="F2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="originDepotCode" />
+			<cell position="B2" dataName="price" />
+			<cell position="C2" dataName="chargeType" />
+			<cell position="D2" dataName="effectiveFrom" />
+			<cell position="E2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PlatformHub">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="platformCode" />
+			<cell position="B2" dataName="hubCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PlatformFleet">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="platformCode" />
+			<cell position="B2" dataName="fleetCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="Platform">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="platformCode" />
+			<cell position="B2" dataName="platformName" />
+			<cell position="C2" dataName="platformFullName" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="PricardDpCity">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="pricardCityCode" />
+			<cell position="B2" dataName="pricardDpCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="VehicleDepot">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="vehiclePlateNum" />
+			<cell position="B2" dataName="buCode" />
+			<cell position="C2" dataName="effectiveFrom" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="VehicleTypeDc">
+		<block start="A2" end="I2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="dcVehicleTypeCode" />
+			<cell position="B2" dataName="vehicleTypeCode" />
+			<cell position="C2" dataName="vehicleTypeName" />
+			<cell position="D2" dataName="vehicleMinLoadingCapacit" />
+			<cell position="E2" dataName="vehicleMaxLoadingCapacit" />
+			<cell position="F2" dataName="effectiveFrom" />
+			<cell position="G2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="McatosBlackList">
+		<block start="A2" end="D2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="shipperName" />
+			<cell position="B2" dataName="effectiveFrom" />
+			<cell position="C2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostDestDelivery">
+		<block start="A2" end="M2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="productTypeCode" />
+			<cell position="J2" dataName="productTypeName" />
+			<cell position="K2" dataName="costAmount" />
+			<cell position="L2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostDestHubHdl">
+		<block start="A2" end="M2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="productTypeCode" />
+			<cell position="J2" dataName="productTypeName" />
+			<cell position="K2" dataName="costAmount" />
+			<cell position="L2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostDestSelfPickup">
+		<block start="A2" end="M2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="productTypeCode" />
+			<cell position="J2" dataName="productTypeName" />
+			<cell position="K2" dataName="costAmount" />
+			<cell position="L2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostOriginPickup">
+		<block start="A2" end="P2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="shipperName" />
+			<cell position="J2" dataName="chargeType" />
+			<cell position="K2" dataName="inboundBillNo" />
+			<cell position="L2" dataName="productTypeCode" />
+			<cell position="M2" dataName="productTypeName" />
+			<cell position="N2" dataName="costAmount" />
+			<cell position="O2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostPacking">
+		<block start="A2" end="O2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="packingTypeCode" />
+			<cell position="J2" dataName="packingSeqNo" />
+			<cell position="K2" dataName="productTypeCode" />
+			<cell position="L2" dataName="productTypeName" />
+			<cell position="M2" dataName="costAmount" />
+			<cell position="N2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostTransportation">
+		<block start="A2" end="M2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="consignmentNo" />
+			<cell position="I2" dataName="productTypeCode" />
+			<cell position="J2" dataName="productTypeName" />
+			<cell position="K2" dataName="costAmount" />
+			<cell position="L2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostUpTrans">
+		<block start="A2" end="K2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="upTransCode" />
+			<cell position="I2" dataName="costAmount" />
+			<cell position="J2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="CostUpTransMilkrun">
+		<block start="A2" end="L2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="payerCode" />
+			<cell position="C2" dataName="payerName" />
+			<cell position="D2" dataName="payerBuTypeCode" />
+			<cell position="E2" dataName="payeeCode" />
+			<cell position="F2" dataName="payeeName" />
+			<cell position="G2" dataName="payeeBuTypeCode" />
+			<cell position="H2" dataName="upTransCode" />
+			<cell position="I2" dataName="milkrunCode" />
+			<cell position="J2" dataName="costAmount" />
+			<cell position="K2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="RevenueConsignment">
+		<block start="A2" end="S2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="batchCode" />
+			<cell position="B2" dataName="consignmentCode" />
+			<cell position="C2" dataName="depotCode" />
+			<cell position="D2" dataName="depotName" />
+			<cell position="E2" dataName="revInsurance" />
+			<cell position="F2" dataName="revPickup" />
+			<cell position="G2" dataName="revDelivery" />
+			<cell position="H2" dataName="revPacking" />
+			<cell position="I2" dataName="revSpecialService" />
+			<cell position="J2" dataName="revBaf" />
+			<cell position="K2" dataName="revInformation" />
+			<cell position="L2" dataName="revNote" />
+			<cell position="M2" dataName="revFreight" />
+			<cell position="N2" dataName="revDcAmount" />
+			<cell position="O2" dataName="revCod" />
+			<cell position="P2" dataName="productTypeCode" />
+			<cell position="Q2" dataName="productTypeName" />
+			<cell position="R2" dataName="remark" />
+		</block>
+	</sheet>
+	
+	<sheet name="VehicleType">
+		<block start="A2" end="E2" loop="true" dataName="list" loopClass="com.hoau.dto.InputDTO">
+			<cell position="A2" dataName="vehicleTypeCode" />
+			<cell position="B2" dataName="vehicleTypeName" />
+			<cell position="C2" dataName="vehicleTypeDesc" />
+			<cell position="D2" dataName="remark" />
+		</block>
+	</sheet>
+	
+</sheets>

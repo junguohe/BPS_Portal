@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+<persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
+	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.erry.auth.model.AuUser</class>
+		<class>com.erry.auth.model.Contact</class>
+		<class>com.erry.auth.model.CustAddress</class>
+		<class>com.erry.auth.model.CustBPS</class>
+		<class>com.erry.auth.model.CustFile</class>
+		<class>com.erry.auth.model.Customer</class>
+		<class>com.erry.auth.model.CustReg</class>
+		<class>com.erry.auth.model.CustProdLine</class>
+		<class>com.erry.auth.model.ProdLine</class>
+		<class>com.erry.auth.model.Dictionary</class>
+		<class>com.erry.auth.model.CustProjectInfo</class>
+		<class>com.erry.auth.model.DealerInfo</class>
+		<class>com.erry.auth.model.MaterialInfo</class>
+		<class>com.erry.auth.model.UserDealer</class>
+		<class>com.erry.auth.model.PriceSpecial</class>
+		<class>com.erry.auth.model.PriceSpecialAudit</class>
+		<class>com.erry.auth.model.PriceSpecialDetail</class>
+		<class>com.erry.auth.model.PriceStrategy</class>
+		<class>com.erry.auth.model.PriceStrategyDetail</class>
+		<class>com.erry.auth.model.UserBPS</class>
+		<class>com.erry.auth.model.RegionInfo</class>
+		<class>com.erry.auth.model.Person</class>
+		<class>com.erry.auth.model.BPSMail</class>
+		<class>com.erry.auth.model.PersonView</class>
+		<class>com.erry.auth.model.DealerUploadReSale</class>
+		<class>com.erry.auth.model.UploadInventory</class>
+		<class>com.erry.auth.model.UploadInventoryAdjustment</class>
+		<class>com.erry.auth.model.UploadTaskInfo</class>
+		<class>com.erry.auth.model.BPSRole</class>
+		<class>com.erry.auth.model.DealarV</class>
+		<class>com.erry.auth.model.Menu</class>
+		<class>com.erry.auth.model.DealerCurrency</class>
+		<class>com.erry.auth.model.DealerProdLine</class>
+		<class>com.erry.auth.model.UserRoleRel</class>
+		<class>com.erry.auth.model.BPSFunction</class>
+		<class>com.erry.auth.model.BPSMonthly</class>
+		<class>com.erry.auth.model.ProdPerson</class>
+		<class>com.erry.auth.model.CustomerBatchProc</class>
+	<properties>
+		<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+		<!-- 
+		value="none" nothing;
+		value="create" to build new table on each run; 
+		value="update" to modify an existing database; 
+		value="create-drop" means the same as "create" but also drops tables when Hibernate closes; 
+		value="validate" makes no changes to the database -->
+		<property name="hibernate.hbm2ddl.auto" value="none"/>
+		<property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.ImprovedNamingStrategy"/>
+		<property name="hibernate.connection.charSet" value="UTF-8"/>
+		<property name="hibernate.show_sql" value="false"/>
+		<property name="hibernate.jdbc.fetch_size" value="100"/>
+		<property name="hibernate.jdbc.batch_size" value="50"/>
+		<!-- Uncomment the following two properties for JBoss only -->
+		<!-- property name="hibernate.validator.apply_to_ddl" value="false" /-->
+		<!-- property name="hibernate.validator.autoregister_listeners" value="false" /-->
+	</properties>
+    </persistence-unit>
+</persistence>

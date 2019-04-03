@@ -1,0 +1,105 @@
+.login {
+	background-image: url(../images/login_bg.jpg);
+	background-repeat:repeat-x;
+	background-color: rgb(213,246,251);
+}
+.login_k {
+	background-image: url(../images/loginss.png);
+	width:592px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	top:100px;
+	margin-left:-315px;
+}
+.login_input {
+	width:223px;
+	height:27px;
+	background-image:url(../images/l_input.PNG);
+	border:0px;
+	padding:0px 5px;
+	} 
+.login_btnok {
+	float:left;
+	width:110px;
+	height:45px;
+	background-image:url(../images/login_btnok.PNG);
+	border:0px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	} 
+.login_btnre {
+	float:left;
+	width:110px;
+	height:45px;
+	background-image:url(../images/login_btnre.png);
+	border:0px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	margin-left:12px;
+	} 
+.nTabnr{ 
+	width:540px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	top:25px;
+	margin-left:-270px;
+} 
+.nTabnr .TabTitle{
+width:100%;
+clear: both; 
+height: 35px; 
+overflow: hidden;
+float:left;
+} 
+.nTabnr .TabTitle ul{ 
+border:0; 
+margin:0; 
+padding:0; 
+} 
+.nTabnr .TabTitle li{ 
+float: left; 
+width: 25%;
+height:27px;
+cursor: pointer; 
+padding-top: 15px; 
+padding-right: 0px; 
+padding-left: 0px; 
+padding-bottom: 0px; 
+list-style-type: none;
+font-size:14px;
+} 
+.nTabnr .TabTitle .active{
+text-align:center;
+color:#000000;
+font-weight:bold;
+} 
+.nTabnr .TabTitle .normal{ 
+text-align:center;
+color:#949494;
+} 
+.nTabnr .TabContent{ 
+width:100%;
+float:left;
+text-align:left;
+margin: 0px auto; 
+padding:0px;
+padding-top:10px;
+color:#323232;
+font-size:14px;
+} 
+.none {display:none;} 
+
+.login_font{
+	color:#959595;
+	font-size:12px;
+	line-height:180%;
+	} 
+a.login_font:link {color: #959595; text-decoration: underline; font-size:12px;}
+a.login_font:visited {color: #959595; text-decoration: none; font-size:12px;}
+a.login_font:hover {color: #959595; text-decoration:none; font-size:12px;}
+a.login_font:active {color: #959595; text-decoration: none; font-size:12px;}
+

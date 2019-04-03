@@ -1,0 +1,162 @@
+.x-mask .splashscreen {
+	background-color: white;
+	opacity: 1;
+}
+.x-mask-msg .splashscreen,
+.x-mask-msg .splashscreen div {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px 5px 5px 5px;
+	border: none;
+	background-color: transparent;
+	background-position: top center;
+}
+.x-splash-icon {
+	background-image: url('../images/splash_logo.png') !important;
+	height: 50px;
+	width: 150px;
+}
+.x-grid-back-color {
+	background:yellow;
+}
+.common-icon-del
+{
+    background:url("../images/common_del.gif") !important;
+}
+.common-icon-adds
+{
+    background:url("../images/addicon.png") !important;
+}
+.common-icon-searchs
+{
+    background:url("../images/search.png") !important;
+}
+.common-icon-show
+{
+    background:url("../images/show.png") !important;
+}
+.common_icon_reg
+{
+    background:url("../images/save.png") !important;
+}
+.common-icon-add
+{
+    background:url("../images/common_add.gif") !important;
+}
+.common-icon-delete
+{
+    background:url("../images/common_delete.png") !important;
+}
+
+.common-icon-role-add
+{
+    background:url("../images/role_add.png") !important;
+}
+
+.common-icon-role-ok
+{
+    background:url("../images/role_ok.png") !important;
+}
+.common-icon-role-delete
+{
+    background:url("../images/role_del.png") !important;
+}
+
+.common-icon-folder-add
+{
+    background:url("../images/folder_add.png") !important;
+}
+.common-icon-folder-delete
+{
+    background:url("../images/folder_delete.png") !important;
+}
+.common-icon-folder-ok
+{
+    background:url("../images/folder_ok.png") !important;
+}
+
+.common-icon-user-add
+{
+    background:url("../images/user.png") !important;
+}
+
+.common-icon-user-delete
+{
+    background:url("../images/user-del.png") !important;
+}
+.common-icon-user-sure
+{
+    background:url("../images/user_sure.png") !important;
+}
+.common-icon-serach
+{
+    background:url("../images/common_search.png") !important;
+}
+.common-icon-down
+{
+    background:url("../images/down.png") !important;
+}
+.common-icon-upload
+{
+    background:url("../images/upload.png") !important;
+}
+.excel_download
+{
+    background:url("../images/common_excel_download.png") !important;
+}
+.excel_upload
+{
+    background:url("../images/common_excel_upload.png") !important;
+}
+.common_icon_save
+{
+    background:url("../images/common_save.png") !important;
+}
+.common_icon_jisuan
+{
+    background:url("../images/edit.png") !important;
+}
+.common_icon_reset
+{
+    background:url("../images/common_reset.png") !important;
+}
+.common_icon_export_excel
+{
+    background:url("../images/export_excel.png") !important;
+}
+
+.common_icon_script_gear
+{
+    background:url("../images/script_gear.png") !important;
+}
+.common_icon_update
+{
+    background:url("../images/update.png") !important;
+}
+.common_icon_approve
+{
+    background:url("../images/save.png") !important;
+}
+.common_icon_cancel
+{
+    background:url("../images/cancel.png") !important;
+}
+.accunt_band_card
+{
+    background:url("../images/account_band.png") !important;
+}
+.person_activate
+{
+    background:url("../images/person_activate.png") !important;
+}
+.person_inactive
+{
+    background:url("../images/user-del.png") !important;
+}
+.common_icon_script
+{
+    background:url("../images/script_gear.png") !important;
+}
+
+
+
